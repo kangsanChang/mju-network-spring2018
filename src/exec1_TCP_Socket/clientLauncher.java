@@ -8,7 +8,7 @@ import java.rmi.UnknownHostException;
 public class clientLauncher {
 	public static void main(String []args) {
 		int serverPort = 10789;
-		String serverIP = "127.0.0.1";
+		String serverIP = "192.168.50.166";
 		Socket server = null;
 	
 		try {

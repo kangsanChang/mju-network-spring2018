@@ -7,7 +7,7 @@ import java.net.SocketException;
 
 public class serverLauncher {
 	public static void main (String []args) {
-		int port = 108789;
+		int port = 10789;
 		DatagramSocket socket;
 		DatagramPacket packet;
 		byte[] buffer = new byte[1024];
